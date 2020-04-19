@@ -1,0 +1,52 @@
+.RentalPanel{
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .14);
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+    &__Header{
+        background-color: #f5f5f5;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2rem;
+        border-bottom: 1px solid rgb(202, 198, 198);
+
+        &__left {
+            display: flex;
+            justify-content: space-around;
+            min-width: 25rem;
+        }
+
+        &__right {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-width: 35rem;
+
+            &__resultPage {
+                font-size: 1.5rem;
+            }
+
+            &__selectPages {
+                width: 8rem;
+                height: 3rem;
+                padding-left: 1.5rem;
+            }
+        }
+    }
+
+    &__Content{
+        flex-grow: 3;
+    }
+    
+    &__Footer{
+        background-color: #f5f5f5;
+        height: 100px;
+    }
+}

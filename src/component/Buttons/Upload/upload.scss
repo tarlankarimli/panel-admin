@@ -1,0 +1,19 @@
+.uploadButton {
+    background: rgb(157, 226, 198);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 8rem;
+    height: 4rem;
+    &:hover {
+        background: rgb(157, 216, 192);
+        cursor: pointer;
+        transition: 0.1s;
+    }
+
+    &__icon__upload, &__icon__right {
+    height: 1.5rem;
+    width: 1.5rem;
+    }
+}

@@ -1,0 +1,96 @@
+
+.container {
+    display: grid;
+    grid-template-columns: .6fr 1fr 0.8fr 1.5fr 1fr 0.3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "down action rentalID rentalDate customerID display";
+    height: 6rem;
+    background-color: #f5f5f5;
+    padding: 0 2rem;
+    border-bottom: 1px solid rgb(228, 225, 225);
+
+    &--color {
+        background-color: #e7e1e1;
+    }
+}
+
+.down {
+    grid-area: down;
+    display: flex;
+    align-items: center;
+
+    &__icon {
+        height: 3.5rem;
+        cursor: pointer;
+    }
+}
+.action {
+    grid-area: action;
+    display: flex;
+    align-items: center;
+    
+    &__edit {
+        background: rgb(105, 105, 28);
+        border-radius: .4rem;
+        width: 6rem;
+        padding: 0.5rem 1.5rem;
+        height: 4rem;
+
+        &:hover {
+            cursor: pointer;
+            background: rgb(165, 165, 44);
+            transition: 0.1s;
+        }
+
+        &__icon {
+            height: 3rem;
+        }
+    }
+
+    &__delete {
+        background: rgb(214, 60, 60);
+        border-radius: .4rem;
+        width: 6rem;
+        padding: 0.5rem 1.5rem;
+        height: 4rem;
+        margin: 0 1rem;
+
+        &:hover {
+            cursor: pointer;
+            background: rgb(241, 93, 93);
+            transition: 0.1s;
+        }
+
+        &__icon {
+            height: 3rem;
+        }
+    }
+}
+.rentalID {
+    grid-area: rentalID;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+.rentalDate {
+    grid-area: rentalDate;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+.customerID {
+    grid-area: customerID;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+.display {
+    grid-area: display;
+    display: flex;
+    align-items: center;
+
+    &__icon {
+        height: 2.5rem;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,16 @@
+.App {
+    background-color: #FFF;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    padding: 2rem;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  
+    &__panel{
+      flex-grow: 1;
+      height: 100%;
+    }
+  }
+  
+  
