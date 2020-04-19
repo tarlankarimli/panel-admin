@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/panel-admin/static/css/main.645dce58.chunk.css",
+    "main.js": "/panel-admin/static/js/main.21ceb516.chunk.js",
+    "main.js.map": "/panel-admin/static/js/main.21ceb516.chunk.js.map",
+    "runtime-main.js": "/panel-admin/static/js/runtime-main.bb9a0002.js",
+    "runtime-main.js.map": "/panel-admin/static/js/runtime-main.bb9a0002.js.map",
+    "static/js/2.74ecf997.chunk.js": "/panel-admin/static/js/2.74ecf997.chunk.js",
+    "static/js/2.74ecf997.chunk.js.map": "/panel-admin/static/js/2.74ecf997.chunk.js.map",
+    "index.html": "/panel-admin/index.html",
+    "precache-manifest.46e76d6a80f5c4da72e5f732427679c2.js": "/panel-admin/precache-manifest.46e76d6a80f5c4da72e5f732427679c2.js",
+    "service-worker.js": "/panel-admin/service-worker.js",
+    "static/css/main.645dce58.chunk.css.map": "/panel-admin/static/css/main.645dce58.chunk.css.map",
+    "static/js/2.74ecf997.chunk.js.LICENSE.txt": "/panel-admin/static/js/2.74ecf997.chunk.js.LICENSE.txt",
+    "static/media/arrow.svg": "/panel-admin/static/media/arrow.c3fe7f18.svg",
+    "static/media/down-arrow.svg": "/panel-admin/static/media/down-arrow.28296cb2.svg",
+    "static/media/icons8-delete.svg": "/panel-admin/static/media/icons8-delete.fa012faf.svg",
+    "static/media/icons8-edit.svg": "/panel-admin/static/media/icons8-edit.2364885a.svg",
+    "static/media/icons8-plus.svg": "/panel-admin/static/media/icons8-plus.2e70f9a3.svg",
+    "static/media/upload.svg": "/panel-admin/static/media/upload.b1c29fea.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb9a0002.js",
+    "static/js/2.74ecf997.chunk.js",
+    "static/css/main.645dce58.chunk.css",
+    "static/js/main.21ceb516.chunk.js"
+  ]
+}
